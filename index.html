@@ -3,11 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Todo List</title>
   </head>
   <body>
-    <h1>Mi TODO list</h1>
-    <script src="scripts/script.js"></script>
+    <main class="app">
+      <header class="app__header">
+        <h1 class="app__title">Todo List</h1>
+        <p class="app__subtitle">Create, complete, and delete tasks.</p>
+      </header>
+
+      <section class="composer" aria-label="Create a new task">
+        <label class="composer__label" for="taskInput">New task</label>
+        <div class="composer__row">
+          <input
+            id="taskInput"
+            class="composer__input"
+            type="text"
+            placeholder="Type a task and press Add..."
+            autocomplete="off"
+          />
+          <button id="addTaskButton" class="button button--primary" type="button">
+            Add
+          </button>
+        </div>
+        <p class="composer__hint">
+          Tip: Press <kbd>Enter</kbd> to add. Double-click a task title to edit.
+        </p>
+      </section>
+
+      <section class="panel" aria-label="Tasks">
+        <div class="panel__meta">
+          <p class="panel__count">
+            <span id="itemsLeft">0</span> items left
+          </p>
+          <button id="clearCompletedButton" class="button button--ghost" type="button">
+            Clear completed
+          </button>
+        </div>
+
+        <ul id="taskList" class="taskList" aria-label="Task list"></ul>
+
+        <p id="emptyState" class="emptyState" hidden>
+          No tasks yet. Add your first task above.
+        </p>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
   </body>
 </html>

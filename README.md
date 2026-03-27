@@ -1,3 +1,7 @@
+Despliegue: https://dsaw-2026-1.github.io/dom-manipulation-papi-cursor/
+
+[Review Assignment Due Date](https://classroom.github.com/a/E1wkzKsM)
+
 # Lista de Tareas
 
 Esta tarea consiste en crear una aplicación de lista de tareas utilizando HTML, CSS y JavaScript. La aplicación debe ser capaz de crear, eliminar y marcar tareas como completadas. Además, se espera que el diseño sea responsive y se adapte correctamente a las medidas de dispositivos móviles, tablets y desktops.
@@ -13,19 +17,21 @@ Esta tarea consiste en crear una aplicación de lista de tareas utilizando HTML,
 El diseño de la aplicación debe ser responsive y adaptarse correctamente a diferentes tamaños de pantalla. Se espera que la interfaz sea fácil de usar tanto en dispositivos móviles como en desktops.
 
 
-| Viewport                | Dimensiones (ancho x alto) |
-| ----------------------- | -------------------------- |
-| **Mobile Portrait**     | 320px x 480px              |
-| **Tablet Portraite**    | 768px x 1024p              |
-| **Desktop**             | +1024px                    |
+| Viewport             | Dimensiones (ancho x alto) |
+| -------------------- | -------------------------- |
+| **Mobile Portrait**  | 320px x 480px              |
+| **Tablet Portraite** | 768px x 1024p              |
+| **Desktop**          | +1024px                    |
+
 
 ## Rúbrica
 
-| Criterio           | Puntaje |
-|--------------------|---------|
+
+| Criterio          | Puntaje |
+| ----------------- | ------- |
 | Despliegue        | 1       |
 | Diseño Responsive | 0.5     |
-| HTML Semántico     | 0.5     |
-| Funcionalidad      | 3       |
+| HTML Semántico    | 0.5     |
+| Funcionalidad     | 3       |
 
 
